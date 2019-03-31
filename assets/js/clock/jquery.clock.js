@@ -78,7 +78,9 @@ jQuery.calcTime = function(offset) {
 
   // create new Date object for different city
   // using supplied offset
-  nd = new Date(utc + (3600000*offset));
+  // nd = new Date(utc + (3600000*offset));
+  nd = new Date();
+
 
   // return time as a string
   return nd;
